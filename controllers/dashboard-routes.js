@@ -40,4 +40,10 @@ router.get("/", withAuth, async (req, res) => {
   }
 });
 
+router.get("/add", withAuth, (req, res) => {
+  res.render("add-post", {
+    loggedIn: req.session.loggedIn,
+  });
+});
+
 module.exports = router;
