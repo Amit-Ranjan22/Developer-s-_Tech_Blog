@@ -69,3 +69,16 @@ router.get("/:id", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.post("/", withAuth, async (req, res) => {
+  try {
+    const dbPostData = await Post.create({
+      title: req.body.title,
+      text: req.body.text,
+      user_id: req.session.user_id,
+    });
+    res.json(dbPostData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
