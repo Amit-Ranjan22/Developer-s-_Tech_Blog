@@ -82,3 +82,21 @@ router.post("/", withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.put("/:id", withAuth, async (req, res) => {
+  try {
+    const dbPostData = await Post.update(req.body, {
+      where: {
+        id: req.params.id,
+      },
+    });
+    if (!dbPostData) {
+      res.status(404).json({ message: "No post found at this id" });
+      return;
+    }
+
+    res.json(dbPostData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
