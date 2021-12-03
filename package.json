@@ -1,0 +1,32 @@
+{
+  "name": "developers_tech_blog",
+  "version": "1.0.0",
+  "description": "A blog site where developers can publish their blog posts and comment on other developers’ posts as well.This app follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amit-Ranjan22/Developers_Tech_Blog.git"
+  },
+  "author": "Amitabh Ranjan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amit-Ranjan22/Developers_Tech_Blog/issues"
+  },
+  "homepage": "https://github.com/Amit-Ranjan22/Developers_Tech_Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
