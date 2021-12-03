@@ -114,3 +114,23 @@ router.put("/:id", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.delete("/:id", async (req, res) => {
+  try {
+    const dbUserData = await User.destroy({
+      where: {
+        id: req.params.id,
+      },
+    });
+    if (!dbUserData) {
+      res.status(404).json({ message: "No user found at this id" });
+      return;
+    }
+
+    res.json(dbUserData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+module.exports = router;
