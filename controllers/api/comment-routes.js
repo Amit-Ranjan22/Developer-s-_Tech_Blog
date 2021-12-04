@@ -10,3 +10,16 @@ router.get("/", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.post("/", withAuth, async (req, res) => {
+  try {
+    const dbCommentData = await Comment.create({
+      comment_text: req.body.comment_text,
+      user_id: req.session.user_id,
+      post_id: req.body.post_id,
+    });
+    res.json(dbCommentData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
