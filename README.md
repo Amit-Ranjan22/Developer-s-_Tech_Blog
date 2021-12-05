@@ -96,3 +96,42 @@ The application’s folder structure must follow the Model-View-Controller parad
 You also need the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
 
 **Note**: The [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie. When you are idle on the site for more than a set time, the cookie will expire and you will be required to log in again to start a new session. This is the default behavior and you do not have to do anything to your application other than implement the npm package.
+
+---
+
+## 💾 Installation & Usage
+
+---
+
+To install this application, clone the repository to your local directory by visiting following link:
+
+- https://github.com/Amit-Ranjan22/Developers_Tech_Blog.git
+
+Once downloaded, you can install its dependencies by navigating to the Developers_Tech_Blog directory on your local machine and issuing the following command:
+
+- npm install
+
+This command will install the following dependencies:
+
+- bcrypt
+- connect-session-sequelize
+- dotenv
+- express
+- express-handlebars
+- express-session
+- handlebars
+- mysql2
+- sequelize
+
+After installing all the dependencies, from your terminal, log into mysql by using
+
+- mysql -u root -p
+
+and enter your password for mysql.
+Once you are logged in to your mysql, run the schema by using
+
+- source db/schema.sql;
+
+Once you run the schema, come out of mysql by using
+
+- exit
