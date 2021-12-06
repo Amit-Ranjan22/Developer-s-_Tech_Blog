@@ -135,3 +135,62 @@ Once you are logged in to your mysql, run the schema by using
 Once you run the schema, come out of mysql by using
 
 - exit
+
+Now, from your terminal run your seed file by using
+
+- npm run seed
+
+After seeding your database run your server.js file by using
+
+- node server.js
+
+---
+
+## 🧪 Tests
+
+---
+
+```
+There are no test used for this application.
+```
+
+---
+
+## 🔌 Link to the deployed application on Heroku
+
+---
+
+- Google-Drive Link: [Developers_Tech_Blog]()
+
+---
+
+## 🔌 Link to the Git-Hub repository
+
+---
+
+- GitHub Link: [
+  https://github.com/Amit-Ranjan22/Developers_Tech_Blog.git)
+
+---
+
+<h2 id='contribution'>🧑‍🤝‍🧑 Contribution</h2>
+
+    Amitabh Ranjan
+
+---
+
+<h2 id='questions'>❓ Questions</h2>
+
+<h3>For any question you can reach me at:</h3>
+
+---
+
+<h3>😺GitHub: <a href='https://github.com/Amit-Ranjan22'>Amit-Ranjan22</a></h3>
+
+<h3>📩 Email: <a href='https://mail.google.com/'>amitabh.march22@gmail</a></h3>
+
+---
+
+## ©️ License & Copyright
+
+Licensed under the [MIT License](License-Copyright/LICENSE).
