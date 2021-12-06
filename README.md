@@ -156,11 +156,21 @@ There are no test used for this application.
 
 ---
 
+## 🖼️ Deployed Application Screenshot
+
+---
+
+The following image is the screenshot of the deployed application:
+
+![Developers_Tech_Blog_Application_Screenshot](./assets/developers-tech-blog-deployedApp-screenshot.png)
+
+---
+
 ## 🔌 Link to the deployed application on Heroku
 
 ---
 
-- Google-Drive Link: [Developers_Tech_Blog]()
+- Heroku Link: [Developers_Tech_Blog]()
 
 ---
 
