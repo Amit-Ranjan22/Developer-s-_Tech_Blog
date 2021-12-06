@@ -170,7 +170,7 @@ The following image is the screenshot of the deployed application:
 
 ---
 
-- Heroku Link: [Developers_Tech_Blog](https://developers-tech-blog.herokuapp.com/)
+- Heroku Link: [Developers_Tech_Blog](https://developer-tech-blog.herokuapp.com/)
 
 ---
 
