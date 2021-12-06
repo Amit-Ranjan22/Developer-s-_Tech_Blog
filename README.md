@@ -103,7 +103,7 @@ You also need the [dotenv package](https://www.npmjs.com/package/dotenv) to use 
 
 ---
 
-To install this application, clone the repository to your local directory by visiting following link:
+To install this application, clone the repository to your local directory by using following link:
 
 - https://github.com/Amit-Ranjan22/Developers_Tech_Blog.git
 
