@@ -170,7 +170,7 @@ The following image is the screenshot of the deployed application:
 
 ---
 
-- Heroku Link: [Developers_Tech_Blog]()
+- Heroku Link: [Developers_Tech_Blog](https://developers-tech-blog.herokuapp.com/)
 
 ---
 
@@ -179,7 +179,7 @@ The following image is the screenshot of the deployed application:
 ---
 
 - GitHub Link: [
-  https://github.com/Amit-Ranjan22/Developers_Tech_Blog.git)
+  E-Commerce_Back-End](https://github.com/Amit-Ranjan22/Developers_Tech_Blog.git)
 
 ---
 
